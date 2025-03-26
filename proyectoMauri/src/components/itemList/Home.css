@@ -1,0 +1,16 @@
+
+
+.titleHome {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pHome {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
