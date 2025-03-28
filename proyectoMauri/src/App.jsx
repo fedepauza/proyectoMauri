@@ -7,6 +7,7 @@ import appFireBase from './credencialesFirebase/credenciales'
 import { getAuth, onAuthStateChanged } from 'firebase/auth'
 import { useState } from 'react'
 import NavBar from './components/navBar/navBar'
+import Registro from './components/registro/Registro'
 
 const auth = getAuth(appFireBase)
 
@@ -29,6 +30,9 @@ const auth = getAuth(appFireBase)
             
                 <NavBar/>
                 { user ? <Home correoUsuario = {user.email} /> : <Login/>}
+                <Routes>
+                  <Route path='/registro' element={<Registro/>}/>
+                </Routes>
 
             </BrowserRouter> 
 

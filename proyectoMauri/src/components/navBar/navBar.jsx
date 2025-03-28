@@ -15,6 +15,7 @@ const auth = getAuth(appFireBase)
 
                     <ul className='navBarUl'>
                         <Link to='/add' className='linkNav'>Administrar</Link>
+                        <Link to='/registro' className='linkNav'>Registrarse</Link>
                         <button onClick={()=> signOut(auth)}>Cerrar sesion</button>
                     </ul>
 

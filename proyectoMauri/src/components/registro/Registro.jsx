@@ -1,10 +1,10 @@
 
 import appFireBase from '../../credencialesFirebase/credenciales'
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth'
-import React from 'react'
-
+import './Registro.css'
 
         const Registro = () => {
+            
             return (
                 <div>
                     <div className='loginContainer'>
